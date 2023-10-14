@@ -21,6 +21,7 @@ header {
 
 header h1 {
     font-size: 36px;
+    font-family: "Georgia", Times, serif;
 }
 
 header h2 {
@@ -43,7 +44,7 @@ nav ul li a {
 
 /* Style the main content area */
 main {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
@@ -53,27 +54,31 @@ main {
 main h1 {
     font-size: 33px;
     margin-bottom: 10px;
+    font-family: "Georgia", Times, serif;
 }
 
 main h2 {
     font-size: 24px;
     margin-bottom: 10px;
+    font-family: "Georgia", Times, serif;
 }
 
 main p {
     font-size: 16px;
     line-height: 1.4;
+    font-family: "Georgia", Times, serif;
 }
 
-.button {
-    background-color: #EDE4FF; /* Lavender */
+button {
+    background-color: #f8f5fd; /* Lavender */
     border: none;
-    color: rgb(175, 175, 175);
+    color: #4a4a4a;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    font-family: "Georgia", Times, serif;
 }
 
 /* Style the footer area */

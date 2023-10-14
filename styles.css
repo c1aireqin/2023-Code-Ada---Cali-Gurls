@@ -13,14 +13,18 @@ body {
 
 /* Style the header area */
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #C3D898;
+    color: #333;
     text-align: center;
     padding: 10px 0;
 }
 
 header h1 {
     font-size: 36px;
+}
+
+header h2 {
+    font-size: 30px;
 }
 
 nav ul {
@@ -33,7 +37,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #333;
     text-decoration: none;
 }
 
@@ -44,6 +48,11 @@ main {
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main h1 {
+    font-size: 33px;
+    margin-bottom: 10px;
 }
 
 main h2 {
@@ -58,8 +67,8 @@ main p {
 
 /* Style the footer area */
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #C3D898;
+    color: #4a4a4a;
     text-align: center;
     padding: 10px 0;
 }

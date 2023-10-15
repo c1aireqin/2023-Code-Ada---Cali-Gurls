@@ -4,16 +4,21 @@ html, body, h1, h2, p, ul, li {
     padding: 0;
 }
 
+@font-face {
+    font-family: louis_george;
+    src: url(louis_george_cafe/LouisGeorgeCafe.ttf);
+}
+
 /* Set a background color and text color for the entire page */
 body {
     background-color: #f0f0f0;
     color: #333;
-    font-family: Arial, sans-serif;
+    font-family: louis_george;
 }
 
 /* Style the header area */
 header {
-    background-color: #C3D898;
+    background-color: #edafb8;
     color: #333;
     text-align: center;
     padding: 15px 0;
@@ -21,7 +26,8 @@ header {
 
 header h1 {
     font-size: 36px;
-    font-family: "Georgia", Times, serif;
+    font-family: louis_george;
+    /*font-family: "Georgia", Times, serif;*/
     padding: 15px 0;
 }
 
@@ -32,7 +38,8 @@ header h2 {
 
 header h3 {
     font-size: 15px;
-    font-family: "Georgia", Times, serif;
+    font-family: louis_george;
+    /*font-family: "Georgia", Times, serif;*/
     padding: 15px 0;
 }
 
@@ -52,7 +59,10 @@ nav ul li a {
 
 /* Style the main content area */
 main {
-    max-width: 1000px;
+    max-width: 1400px;
+    min-width: 500px;
+    max-height: 700px;
+    min-height: 500px;
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
@@ -62,21 +72,21 @@ main {
 main h1 {
     font-size: 33px;
     margin-bottom: 10px;
-    font-family: "Georgia", Times, serif;
+    font-family: louis_george;
     padding: 5px 0;
 }
 
 main h2 {
     font-size: 24px;
     margin-bottom: 10px;
-    font-family: "Georgia", Times, serif;
+    font-family: louis_george;
     padding: 10px 0;
 }
 
 main h3 {
     font-size: 20px;
     margin-bottom: 10px;
-    font-family: "Georgia", Times, serif;
+    font-family: louis_george;
     padding: 10px 0;
     font-weight: normal;
 }
@@ -84,12 +94,12 @@ main h3 {
 main p {
     font-size: 16px;
     line-height: 1.4;
-    font-family: "Georgia", Times, serif;
+    font-family: louis_george;
     padding: 10px 0;
 }
 
 button {
-    background-color: #EDE4FF; /* Lavender */
+    background-color: #d5e9c4; /* Lavender */
     border: none;
     color: #4a4a4a;
     padding: 15px 32px;
@@ -97,12 +107,12 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    font-family: "Georgia", Times, serif;
+    font-family: louis_george;
 }
 
 /* Style the footer area */
 footer {
-    background-color: #C3D898;
+    background-color: #edafb8;
     color: #4a4a4a;
     text-align: center;
     padding: 10px 0;

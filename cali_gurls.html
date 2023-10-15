@@ -1,49 +1,58 @@
 <!DOCTYPE html>
+
 <html>
-    <body style="background-color:#EAFAF1 ;">
-        <style>
-            .image-grid {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr); /* Adjust the number of columns as needed */
-            gap: 50px; /* Adjust the gap between items */
-        }
-        .image-item img {
-            width: 100%;
-            height: auto;
-        }
-        div {
-        width: 300px;
-           height: 240px;
-           padding: 5px;
-           border: 3px solid #2c2486;
-           margin: 0;
-        }
-        .img__wrap {
-  position: relative;
-  height: 260px;
-  width: 180px;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentsite</title>
+    <link rel="icon" type="image/x-icon" href="/images/hearticon.ico">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file (if any) -->
+</head>
 
-.img__description {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(29, 106, 154, 0.72);
-  color: #fff;
-  visibility: hidden;
-  opacity: 0;
+<body style="background-color:#d5e9c4 ;">
+    <style>
+    .image-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* Adjust the number of columns as needed */
+        gap: 5px; /* Adjust the gap between items */
+    }
+    .image-item img {
+        width: 100%;
+        height: auto;
+    }
+    div {
+    width: 300px;
+    height: 240px;
+    padding: 10px;
+    margin: 10px;
+    }
+    .img__wrap {
+    position: relative;
+    border: 3px solid #2c2486;
+    fill:#ce4848;
+    height: 260px;
+    width: 260px;
+    }
 
-  /* transition effect. not necessary */
-  transition: opacity .2s, visibility .2s;
-}
+    .img__description {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(29, 106, 154, 0.72);
+        color: #fff;
+        visibility: hidden;
+        opacity: 0;
+    /* transition effect. not necessary */
+        transition: opacity .2s, visibility .2s;
+    }
 
-.img__wrap:hover .img__description {
-  visibility: visible;
-  opacity: 1;
-}
-        </style>
+    .img__wrap:hover .img__description {
+        visibility: visible;
+        opacity: 1;
+    }
+    </style>
 <head>
     <title>Simple Java Website</title>
     <title>Profile Button Example</title>
@@ -54,34 +63,34 @@
         <h1>Mentors Similar To You</h1>
         
     </header>
-    <div class="image-grid">
-        <div class="image-item">
-            <div class="img__wrap">
-                <img class="img__img" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ea914385-70d7-476d-aa3b-37d0c449c464/ddqa7pn-9ccd4b5d-d3cc-4a7d-b1d9-f02f874b25d8.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2VhOTE0Mzg1LTcwZDctNDc2ZC1hYTNiLTM3ZDBjNDQ5YzQ2NFwvZGRxYTdwbi05Y2NkNGI1ZC1kM2NjLTRhN2QtYjFkOS1mMDJmODc0YjI1ZDguanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.lqdVuUMdTqYSbAyAnrgNh7TMGoUU8JNqLUusRzU9Quc" alt="Mushu style="width:260px;height:180px;>
-                <h1>Mushu</h1>
-                <p class="img__description">Mushu is a senior at UIUC majoring in Drama. He </p>
-            </div>
-        </div>
-        <div class="image-item">
-            <div class="img__wrap">
-                <img class="img__img" src="https://cdn.discordapp.com/attachments/1162550515926835331/1162851924123594852/4e9a90b1da2802ce6b245bde78fbb46b.png?ex=653d713f&is=652afc3f&hm=ae5c7b0b0ca79d6b8e88cfaf56c5d010d50acfece6dfa0a3e136bf875e938d4a&" alt="Ratatouille" style="width:260px;height:220px;"/>
-                <h1>Remy & Emile</h1>
-                <p class="img__description">This image looks super neat.</p>
-            </div>
-        </div>
-        <div class="image-item">
-                <img src="https://static.wikia.nocookie.net/disney/images/9/99/The_matchmaker_Mulan_.jpg/revision/latest?cb=20151211005045" alt="Mulan Matchmaker" style="width:260px;height:220px;">
-                <h1>Mulan's Matchmaker</h1>
-        </div>
-        <div class="image-item">
-                <img src="https://cdn.discordapp.com/attachments/1162550515926835331/1162856667986264164/latest.png?ex=653d75aa&is=652b00aa&hm=cb716283ee332818b13471bbd12f39e2d604404633c0e69ae16ad52ffe8ab0a2&" alt="Mulan Matchmaker" style="width:260px;height:220px;">
-                    <h1>Edna Mode</h1>
-        <div class="image-item">
-                <img src="https://cdn.discordapp.com/attachments/1162550515926835331/1162858574540701856/28b_nnsmoviesshrek2.png?ex=653d7771&is=652b0271&hm=2ddeb7c8f8a3310ed157aa0d9e968458fa8459f64f0e9f1350d0a235b44d2aa8&" alt="Shrek" style="width:300px;height:220px;">
-                    <h1>Shrek</h1>
-        </div>
-    </div>
     <main>
+        <div class="image-grid">
+            <div class="image-item">
+                <div class="img__wrap">
+                    <img src="images/shrek.png" alt="Shrek" style="width:260px;height:220px;">
+                    <h2>Shrek</h2>
+                    <p class="img__description">"ogres are like onions"</p>
+                </div>
+            </div>
+            <div class="image-item">
+                <div class="img__wrap">
+                    <img class="img__img" src="https://cdn.discordapp.com/attachments/1162550515926835331/1162851924123594852/4e9a90b1da2802ce6b245bde78fbb46b.png?ex=653d713f&is=652afc3f&hm=ae5c7b0b0ca79d6b8e88cfaf56c5d010d50acfece6dfa0a3e136bf875e938d4a&" alt="Ratatouille" style="width:260px;height:220px;"/>
+                    <h2>Remy & Emile</h2>
+                    <p class="img__description">This image looks super neat.</p>
+                </div>
+            </div>
+            <div class="image-item">
+                <div class="img__wrap">
+                    <img src="https://static.wikia.nocookie.net/disney/images/9/99/The_matchmaker_Mulan_.jpg/revision/latest?cb=20151211005045" alt="Mulan Matchmaker" style="width:260px;height:220px;">
+                    <h2>Mulan's Matchmaker</h2>
+                </div>
+            </div>
+            <div class="image-item">
+                <div class="img__wrap">
+                    <img src="https://cdn.discordapp.com/attachments/1162550515926835331/1162856667986264164/latest.png?ex=653d75aa&is=652b00aa&hm=cb716283ee332818b13471bbd12f39e2d604404633c0e69ae16ad52ffe8ab0a2&" alt="Mulan Matchmaker" style="width:260px;height:220px;">
+                        <h2>Edna Mode</h2>
+                </div>
+        </div>
     </main>
 </body>
 </html>

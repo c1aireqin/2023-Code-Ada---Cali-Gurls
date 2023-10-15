@@ -9,6 +9,7 @@
 </head>
 <body>
     <header>
+        <img src="images/icons8-link-64.png">
         <h1>Academic</h1>
         <nav>
             <ul>
@@ -21,7 +22,6 @@
                 <a href="CollegeLife.html">
                     <button>College Life</button>
                 </a>
-
             </ul>
         </nav>
     </header>
@@ -33,6 +33,29 @@
         <section>
             <h2>Academic</h2>
             <p>Find a mentor for help with classes - registration, planning, studying</p>
+        </section>
+        <section>
+            <form name="myForm" action="" method="GET">
+                Enter something in the box: <br>
+                <input type="text" name="inputbox" value="">
+                <script> 
+                    const fs = require('fs')
+                    function testResults (form) {
+                        let inputValue = form.inputbox.value;
+                        fs.writeFile(Output.txt, data, (err) => { 
+                            if (err) throw err; 
+                        }) 
+                    }
+                </script>
+                <input type="submit" value="Submit" onClick="testResults(this.form)">
+            </form>
+        </section>
+        <section>
+            <ul>
+                <a href="cali_gurls.html">
+                    <button>RESULTS</button>
+                </a>
+            </ul>
         </section>
     </main>
 

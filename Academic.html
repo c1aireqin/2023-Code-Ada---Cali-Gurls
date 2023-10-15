@@ -9,8 +9,7 @@
 </head>
 <body>
     <header>
-        <img src="images/icons8-link-64.png">
-        <h1>Academic</h1>
+        <h1>Mentsite!</h1>
         <nav>
             <ul>
                 <a href="site.html">
@@ -22,45 +21,36 @@
                 <a href="collegeLifeForm.html">
                     <button>College Life</button>
                 </a>
+
             </ul>
         </nav>
     </header>
 
     <main>
         <section>
-            <h1>Welcome to mentsite! <br>Choose Academic or College Life to get started :D</h1>
+            <h1>Academic Advice</h1>
         </section>
         <section>
-            <h2>Academic</h2>
-            <p>Find a mentor for help with classes - registration, planning, studying</p>
+            <h2>Academic Advice</h2>
+            <p>Find a mentor to talk about college acadmic advice! </p>
         </section>
         <section>
-            <form name="myForm" action="" method="GET">
-                Enter something in the box: <br>
-                <input type="text" name="inputbox" value="">
-                <script> 
-                    const fs = require('fs')
-                    function testResults (form) {
-                        let inputValue = form.inputbox.value;
-                        fs.writeFile(Output.txt, data, (err) => { 
-                            if (err) throw err; 
-                        }) 
-                    }
-                </script>
-                <input type="submit" value="Submit" onClick="testResults(this.form)">
-            </form>
+            <label for="Major">What is your major? </label>
+            <input type="text" id="Major" name="Major">
         </section>
         <section>
-            <ul>
-                <a href="cali_gurls.html">
-                    <button>RESULTS</button>
-                </a>
-            </ul>
+            <label for="Course">What course do you need help with?:</label>
+            <input type="text" id="Course" name="Course">
         </section>
+        <section>
+            <label for="Language">What languages do you speak?:</label>
+            <input type="text" id="Language" name="Language">
+        </section>
+
     </main>
 
     <footer>
-        <p>thank you :)</p>
+        <p>HELLO</p>
     </footer>
 
     <script src="script.js"></script> <!-- Link to your JavaScript file (if any) -->

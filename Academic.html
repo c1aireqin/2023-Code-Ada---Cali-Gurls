@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentsite</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file (if any) -->
+</head>
+<body>
+    <header>
+        <h1>Mentsite!</h1>
+        <nav>
+            <ul>
+                <a href="site.html">
+                    <button>Home</button>
+                </a>
+                <a href="Academic.html">
+                    <button>Academic</button>
+                </a>
+                <a href="CollegeLife.html">
+                    <button>College Life</button>
+                </a>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Academic Advice</h1>
+        </section>
+        <section>
+            <h2>Academic Advice</h2>
+            <p>Find a mentor to talk about college acadmic advice! </p>
+        </section>
+        <form name="myForm" action="" method="GET">
+            Enter something in the box: <br>
+            <input type="text" name="inputbox" value="">
+            <input type="button" name="button" value="Click" onClick="testResults(this.form)">
+            <script> 
+                const fs = require('fs')
+                function testResults (form) {
+                    let inputValue = form.inputbox.value;
+                    fs.writeFile(Output.txt, data, (err) => { 
+                        if (err) throw err; 
+                    }) 
+                }
+             </script>
+        </form>
+
+    </main>
+
+    <footer>
+        <p>HELLO</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Link to your JavaScript file (if any) -->
+</body>
+</html>
+

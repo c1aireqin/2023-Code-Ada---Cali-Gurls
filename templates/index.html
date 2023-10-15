@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile Similarities</title>
+</head>
+<body>
+    <h1>Profile Similarities</h1>
+    <ul>
+        {% for profile, similarity in profiles %}
+            <li>{{ profile }}: {{ similarity }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

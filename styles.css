@@ -61,8 +61,8 @@ nav ul li a {
 main {
     max-width: 1400px;
     min-width: 500px;
-    max-height: 700px;
-    min-height: 500px;
+    max-height: 900px;
+    min-height: 750px;
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
@@ -78,7 +78,7 @@ main h1 {
 
 main h2 {
     font-size: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     font-family: louis_george;
     padding: 10px 0;
 }
@@ -99,15 +99,20 @@ main p {
 }
 
 button {
-    background-color: #d5e9c4; /* Lavender */
+    background-color: #d5e9c4; /* green */
     border: none;
     color: #4a4a4a;
     padding: 15px 32px;
+    margin-top: 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     font-family: louis_george;
+}
+
+input {
+    margin-top: 10px;
 }
 
 /* Style the footer area */

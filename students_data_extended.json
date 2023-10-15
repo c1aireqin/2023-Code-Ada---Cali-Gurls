@@ -1,0 +1,116 @@
+[
+    {
+        "name": "John Doe",
+        "major": "Computer Science",
+        "courses": [
+            "Data Structures",
+            "Algorithms",
+            "Web Development"
+        ],
+        "languages": [
+            "English",
+            "Spanish",
+            "French"
+        ],
+        "interests_hobbies": [
+            "Reading",
+            "Gaming",
+            "Hiking"
+        ]
+    },
+    {
+        "name": "Jane Smith",
+        "major": "Biology",
+        "courses": [
+            "Genetics",
+            "Microbiology",
+            "Ecology"
+        ],
+        "languages": [
+            "English",
+            "Mandarin",
+            "German"
+        ],
+        "interests_hobbies": [
+            "Painting",
+            "Swimming",
+            "Cooking"
+        ]
+    },
+    {
+        "name": "Alice Johnson",
+        "major": "History",
+        "courses": [
+            "World History",
+            "Ancient Civilizations",
+            "Political Science"
+        ],
+        "languages": [
+            "English",
+            "Italian",
+            "Arabic"
+        ],
+        "interests_hobbies": [
+            "Traveling",
+            "Photography",
+            "Music"
+        ]
+    },
+    {
+        "name": "Bob Wilson",
+        "major": "Computer Science",
+        "courses": [
+            "Data Structures",
+            "Web Development",
+            "Machine Learning"
+        ],
+        "languages": [
+            "English",
+            "Spanish",
+            "German"
+        ],
+        "interests_hobbies": [
+            "Soccer",
+            "Coding",
+            "Movies"
+        ]
+    },
+    {
+        "name": "Eva Brown",
+        "major": "Biology",
+        "courses": [
+            "Genetics",
+            "Ecology",
+            "Anatomy"
+        ],
+        "languages": [
+            "English",
+            "French",
+            "Italian"
+        ],
+        "interests_hobbies": [
+            "Hiking",
+            "Painting",
+            "Traveling"
+        ]
+    },
+    {
+        "name": "David Lee",
+        "major": "History",
+        "courses": [
+            "World History",
+            "Political Science",
+            "Economics"
+        ],
+        "languages": [
+            "English",
+            "Spanish",
+            "Chinese"
+        ],
+        "interests_hobbies": [
+            "Reading",
+            "Photography",
+            "Cooking"
+        ]
+    }
+]
